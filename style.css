@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    font-size: 50px;
+    text-decoration: 5px black solid underline;
+}
+body{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#head{
+    height: 150x;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "kick the font";
+}
+
+#main{
+    border: 2px black solid;
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px 5px black;
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.box:active{
+    border: 4px white solid;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.new{
+    border: 4px white solid;
+}
